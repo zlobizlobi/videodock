@@ -14,5 +14,11 @@
   - The components can be found under `src/components`
   - In case you want to create a new component follow this folder structure:
 
-    navbar - styles.js (CSS) - navbar.jsx (COMPONENT) - index.js (Export index file so to be able to import from the components folder like:
-    `import {Navbar, Footer} from '../../components'`)
+    ```js
+    // navbar
+    // - navbar.jsx (CSS)
+    // - styles.js (COMPONENT)
+    // - index.js (Export index file so to be able to import from the components folder like: import {Navbar, Footer} from '../../components')
+    ```
+
+    Have fun!
