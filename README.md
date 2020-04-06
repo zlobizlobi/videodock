@@ -6,5 +6,6 @@
 - As `yarn` has been used as the node package manager for this project you can only serve the project by first downloading `serve` as global dependency.
   - `yarn global add serve`.
   - Run `yarn` or `yarn install` to fetch all the dependencies.
-  - In case you want to run a production build and serve it - run the following: `yarn build && serve -s build`. `-s` meaning that all not found requests would be rewritten to `index.html`
-  - In case you want to run the project in a development environment - just run: `yarn dev`
+  - In case you want to run a production build and serve it - run the following: `yarn build && serve -s build`. `-s` meaning that all not found requests would be rewritten to `index.html`.
+  - In case you want to run the project in a development environment - just run: `yarn dev`.
+  - All the global styles are included in `styles/globalStyle.js` and the media queries in `styles/media.js`.
